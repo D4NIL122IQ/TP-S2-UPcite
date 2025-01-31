@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="formulaire.php" method="post">
+      <fieldset>
+        <legend>information personnelles</legend>
+        <label for="nom">Nom :</label>
+        <input
+          type="text"
+          name="nom"
+          id="nom"
+          placeholder="Ex. Descartes"
+          maxlength="30"
+          required
+          autofocus
+        /><br />
+        <label for="prenom">Prenom : </label>
+        <input
+          type="text"
+          name="prenom"
+          id="prenom"
+          placeholder="Ex. René"
+          maxlength="30"
+          required
+        /><br />
+        <label for="civil">Civilité :</label>
+        <select name="civil" id="civil">
+          <option value="monsieur">M.</option>
+          <option value="madame">Mme.</option>
+          <option value="madem">Mlle.</option>
+        </select>
+        <br />
+        <label for="mail">E-mail :</label>
+        <input
+          type="email"
+          name="mail"
+          id="mail"
+          placeholder="Ex. rene.descarte@paris5.com"
+          maxlength="30"
+          required
+        /><br />
+        <label for="mdp">Mot de passe</label>
+        <input type="password" name="mdp" id="mdp" maxlength="30" required />
+      </fieldset>
+      <fieldset>
+        <legend>Niveau et compétence</legend>
+        <label for="LHTML">Votre niveau en HTML</label><br />
+        <input type="radio" name="LHTML" id="n0" value="Nul" checked />Nul
+        <br />
+
+        <input type="radio" name="LHTML" id="n1" value="Moyen" />Moyen <br />
+        <input type="radio" name="LHTML" id="n2" value="Bon" />Bon <br />
+        <input type="radio" name="LHTML" id="n3" value="tresbon" />Trés bon
+        <br />
+        <label for="competence">Vous avez des competences en :</label><br />
+        <input type="checkbox" name="competence" id="c" />C <br />
+        <input type="checkbox" name="competence" id="c+" />C++ <br />
+        <input type="checkbox" name="competence" id="java" />Java <br />
+        <input type="checkbox" name="competence" id="caml" />Caml <br />
+        <label for="autre">Autre compétences :</label><br />
+        <textarea name="autre" id="autreC" cols="40" rows="10"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Divers</legend>
+        <label for="coleur">Couleur préférée</label>
+        <input type="color" name="couleur" id="couleur" /><br />
+        <label for="fichier">Joindre votre CV au formulaire :</label>
+        <input type="file" name="fichier" id="cv" /><br />
+        <label for="typefichier">Type de fichier :</label>
+        <input
+          type="text"
+          name="typefichier"
+          id="tfichier"
+          value="PDF"
+          autocomplete="DOC DOCX ODT PDF RTF TXT"
+        />
+        <br />
+        <label for="langue">Langue parlée</label>
+        <select name="langue" id="langue" multiple>
+          <optgroup label="Langues vivantes">
+            <option value="fr">Francais</option>
+            <option value="es">Espagnol</option>
+            <option value="al">Allemand</option>
+            <option value="it">Italien</option>
+            <option value="pr">Portugais</option>
+          </optgroup>
+          <optgroup label="Langues mortes">
+            <option value="latin">Latin</option>
+            <option value="grec">Grec</option>
+          </optgroup>
+        </select>
+      </fieldset>
+      <input type="reset" value="Remettre à zéro" />
+      <input type="submit" value="Soumettre" />
+    </form>
+  </body>
+</html>
