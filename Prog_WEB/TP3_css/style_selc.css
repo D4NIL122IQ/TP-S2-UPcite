@@ -1,0 +1,144 @@
+/* tout les elements
+body {
+  color: red;
+}  */
+
+/* tout les elements h2
+h2{
+  color: red;
+} */
+
+/* tout les paragraphes 
+p{
+  color: red;
+} */
+
+/* toutes les listes
+ol,
+ul {
+  color: red;
+} */
+
+/* les elements de liste 
+li{
+  color: red;
+} */
+
+/* les liens 
+a {
+  color: red;
+} */
+
+/* les elements strong
+strong {
+  color: red;
+} */
+
+/* les elements em
+em {
+  color: red;
+} */
+
+/* les elements de la classe special
+.special {
+  color: red;
+} */
+
+/* element h2 de la classe special
+h2.special {
+  color: red;
+} */
+
+/* .autre_para {
+  color: red;
+} */
+
+/* .dernier_para {
+  color: red;
+} */
+
+/* #special_para {
+  color: red;
+} */
+
+/* p.special {
+  color: red;
+} */
+
+/* li.special {
+  color: red;
+} */
+
+/* p.autre_para {
+  color: red;
+} */
+
+/* p.dernier_para {
+  color: red;
+} */
+
+/* h1,
+h2 {
+  color: red;
+} */
+
+/* strong,
+em {
+  color: red;
+} */
+
+/* h2.special,
+#special_para {
+  color: red;
+} */
+
+/* h2 + p {
+  color: red;
+} */
+
+/* p:hover {
+  color: red;
+} */
+
+/* h1:hover,
+h2:hover {
+  color: red;
+} */
+
+/* ol em {
+  color: red;
+} */
+
+/* ul em {
+  color: red;
+} */
+
+/* [id] {
+  color: red;
+} */
+
+/* [href] {
+  color: red;
+} */
+
+/* [href="http://www.parisdescartes.fr/"]
+{
+  color: red;
+} */
+
+/* [href^="http"] {
+  color: red;
+} */
+
+/* [href*="google"] {
+  color: red;
+} */
+
+/* 
+[href$="org/"] {
+  color: red;
+} */
+
+/* [href$="fr/"] {
+  color: red;
+} */

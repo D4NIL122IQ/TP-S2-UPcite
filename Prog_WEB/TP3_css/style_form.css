@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+}
+td {
+  width: 50%;
+}
+
+form {
+  width: 750px;
+  margin: 0 auto;
+}
+
+td:nth-child(1) {
+  text-align: right;
+}
+
+legend {
+  font-size: large;
+  font-weight: bold;
+}
+fieldset {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fff0f0;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  box-shadow: 5px 5px 10px 1px;
+}
+
+label:hover {
+  color: red;
+}
