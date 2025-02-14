@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "Bearpaw";
+  src: url(./font/BEARPAW_-webfont.ttf) format("truetype"),
+    url(./font/BEARPAW_-webfont.woff) format("woff");
+}
+
+@font-face {
+  font-family: "lillyregular";
+  src: url(./font/Lilly__-webfont.woff) format("woff"),
+    url(./font/Lilly__-webfont.ttf) format("truetype");
+}
+
+body {
+  width: 900px;
+  margin: 0px auto;
+  background-image: url(./assets/fond_texture.png);
+}
+
+header {
+  background-image: url(./assets/banniere.jpg);
+  background-repeat: no-repeat;
+  height: 250px;
+  border-radius: 20px;
+  position: relative;
+}
+
+header h1 {
+  font-family: "Bearpaw";
+  font-size: 160px;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(255, 192, 203);
+  text-shadow: 0px 10px black;
+  margin: 0px;
+  padding-top: 70px;
+}
+
+.info {
+  background-color: rgba(100, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  border-radius: 0px 0px 20px 20px;
+  border-top: 1px solid rgb(085, 022, 033);
+  font-family: "lillyregular";
+}
+
+.dedicace {
+  color: white;
+  font-style: italic;
+  text-shadow: rgb(255, 192, 203) 10px;
+  margin: 10px auto;
+  padding-left: 20px;
+}
+
+.news a {
+  position: absolute;
+  right: 30px;
+  top: 5px;
+  color: white;
+  text-decoration: none;
+  text-shadow: black 10px;
+  border: 2px solid rgb(085, 022, 033);
+  padding: 3px 15px 3px 15px;
+  border-radius: 10px;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 192, 203),
+    rgb(155, 092, 103)
+  );
+}
+
+.news a:hover {
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgb(155, 192, 203)
+  );
+}
+
+nav ul {
+  background-color: rgba(100, 0, 0, 0.6);
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  padding: 10px 5px 0px 5px;
+  border-radius: 20px;
+  list-style-type: none;
+}
+
+nav ul li {
+  font-size: 50px;
+  font-family: "Bearpaw";
+  display: inline;
+  margin: 30px;
+  padding: 10px 5px 0px 5px;
+  border-style: solid none solid none;
+  border-width: 5px;
+  border-color: rgb(085, 022, 033);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 192, 203);
+  text-shadow: 5px 2px black;
+}
+
+nav ul li:hover {
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgb(255, 192, 203)
+  );
+}
+
+aside {
+  background-color: rgba(100, 0, 0, 0.6);
+  float: left;
+  font-family: "lillyregular";
+  width: 300px;
+  color: white;
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+  padding: 0px 15px 15px 15px;
+  border-radius: 20px;
+  border: 3px solid rgb(085, 022, 033);
+}
+
+aside img {
+  margin: 0px auto;
+  border: 3px solid rgb(085, 022, 033);
+}
+
+aside ul {
+  list-style-image: url(./assets/fleche.png);
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border: 3px dashed;
+}
+
+aside ul li {
+  text-align: left;
+
+  text-shadow: 3px 2px black;
+}
+
+section {
+  float: right;
+  width: 525px;
+  font-family: "lillyregular";
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 192, 203, 0.6),
+    rgba(100, 0, 0, 0.6)
+  );
+  color: white;
+  border-radius: 20px;
+  border: 3px solid rgb(085, 022, 033);
+  padding: 0px 15px 0px 15px;
+  margin: 30px 0px 50px 0px;
+}
+
+hr {
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff;
+  height: 2px;
+  border: 0px;
+}
+
+section h2 {
+  margin-bottom: 0px;
+  text-shadow: 2px 3px black;
+}
+
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  font-family: "lillyregular";
+  width: 100%;
+  text-align: center;
+  background-color: rgba(100, 0, 0, 0.6);
+  color: white;
+  border-top: 2px solid rgb(085, 022, 033);
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
