@@ -2,3 +2,5 @@
 /.prettierignore
 /POO/.project
 /POO/*/.settings
+/POO/*/.classpath
+/POO/*/.project
