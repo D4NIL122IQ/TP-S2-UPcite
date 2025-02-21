@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+}
+
+section {
+  background-color: #fff;
+  width: 600px;
+  margin: 50% auto;
+}
