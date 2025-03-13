@@ -1,5 +1,5 @@
 package exo;
-
+import java.util.List;
 public class Test {
 	public static void main(String [] args) {
 		Point p = new Point(1,8);
@@ -10,9 +10,16 @@ public class Test {
 		
 		Point sommets[] = {p,p2,p3,p4};
 		Polygone py = new Polygone(sommets);
+
+//		py.affiche();
+//		System.out.println(py.nombreDeSommets());
 		
+		Carre ca = new Carre(p, 4);
 		
-		py.affiche();
-		System.out.println(py.nombreDeSommets());
+		CollectionPolygone test = new CollectionPolygone();
+		test.ajouterPolygone(py);
+		test.ajouterPolygone(ca);
+		test.afficher();
+		
 	}
 }

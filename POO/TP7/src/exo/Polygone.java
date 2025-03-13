@@ -48,13 +48,13 @@ public class Polygone {
 			temp.append(", " +sommets[i].toString());
 		}
 		temp.append("]");
+
 		return temp.toString();
 	}
+	
 	//Affiche les coordonnées des sommets
 	public void affiche(){
-		System.out.println(this.toString());
-	
-		
+		System.out.println(this.toString());	
 	}
 	///Calcul le périmètre (somme des côtés) du polygone
 	public float perimetre() {
